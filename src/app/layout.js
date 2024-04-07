@@ -1,3 +1,4 @@
+import Navbar from "@/components/shared/Navbar";
 import "./globals.css";
 
 export const metadata = {
@@ -12,7 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="min-h-screen">
-        {children}
+        <header>
+          <Navbar />
+        </header>
+        <main className="pt-20 flex justify-center items-center min-h-screen">
+          {children}
+        </main>
       </body>
     </html>
   );

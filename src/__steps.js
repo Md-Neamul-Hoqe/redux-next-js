@@ -13,5 +13,13 @@
 /**
  * Middleware Setup
  * -----------------------------------------
+ * 1. make a middle ware [optional: using curring function e.g. a()()()]
+ *      - handle store, next, action
+ * 2. concat the middleware to store using `getDefaultMiddleware()` and `concat()`
+ */
+
+/**
+ * RTK Query
+ * ----------------------------------------------
  * 1. 
  */
