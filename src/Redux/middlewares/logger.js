@@ -1,5 +1,5 @@
 const logger = store => next => action => {
-    // console.log(store, next, action);
+    console.log(store, next, action);
 
     // console.log('action ', action.type);
     // console.log('prev state: ', store.getState());

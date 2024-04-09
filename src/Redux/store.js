@@ -1,3 +1,8 @@
+/**
+ * This is old store, will be removed after new store provider set correctly
+ */
+
+
 import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from './features/counterSlice'
 
